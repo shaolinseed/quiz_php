@@ -1,0 +1,70 @@
+/*styling for overall pages (body) use helvetica font. dark blue background */
+body {
+  font-family: helvetica;
+  font-size: 1em;
+  background-color: #212e53;
+  color: #e6e6e6;
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: 1400px;
+  background-color: #57c196;
+  border-radius: 10px;
+  box-shadow: 10px 15px #747575;
+}
+/*styling h1 headers - align centre, padd accordingly*/
+header h1 {
+  text-align: center;
+  padding: 25px 0px 0px 0px;
+}
+/*styling for each question set background colour to red */
+.question {
+  white-space: nowrap;
+  background-color: #ce6a6b;
+  padding: 15px 20px;
+  margin: 0 10px 10px 10px;
+  border-radius: 10px;
+  
+  
+}
+
+
+/*style the outer div of the submit button - align in centre with red colour*/
+.submit {
+  background-color: #ce6a6b;
+  padding: 15px 10px;
+  margin: 0 580px 0 580px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/*styling for the submit button (rectangle with sounded edges using border radius*/
+/*centered button with rounded edges - bold font*/
+.submitButton {
+  background-color: white;
+  padding: 15px 20px;
+  border-radius: 20px;
+  border: 2px solid;
+  text-align: center;
+  color: #212e53;
+  font-weight: bold;
+  margin: auto;
+  
+}
+
+/*centre the score text and increase the size of the font*/
+.score {
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+/*footer styling -- centred */
+footer p{
+  color: #212e53;
+  text-align: right;
+  padding: 40px 0 60px 0;
+  padding: 10px;
+}
